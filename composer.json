@@ -1,7 +1,7 @@
 {
-    "name": "friendsofsymfony/oauth-server-bundle",
+    "name": "vitaliy-bratyshov/oauth-server-bundle",
     "type": "symfony-bundle",
-    "description": "Symfony2 OAuth Server Bundle",
+    "description": "Symfony5 OAuth Server Bundle",
     "keywords": [
         "oauth",
         "oauth2",
@@ -15,17 +15,21 @@
             "email": "arnaud.lb@gmail.com"
         },
         {
+            "name": "Vitaliy Bratyshov",
+            "email": "b@webant.ru"
+        },
+        {
             "name": "FriendsOfSymfony Community",
             "homepage": "https://github.com/FriendsOfSymfony/FOSOAuthServerBundle/contributors"
         }
     ],
     "require": {
-        "php": "^7.2",
+        "php": ">=8.0",
         "friendsofsymfony/oauth2-php": "~1.1",
-        "symfony/dependency-injection": "^4.4 || ^5.1",
-        "symfony/framework-bundle": "^4.4 || ^5.1",
-        "symfony/security-bundle": "^4.4 || ^5.1",
-        "symfony/twig-bundle": "^4.4 || ^5.1"
+        "symfony/dependency-injection": "^4.4 || ^5.1 || ^5.2",
+        "symfony/framework-bundle": "^4.4 || ^5.1 || ^5.2",
+        "symfony/security-bundle": "^4.4 || ^5.1 || ^5.2",
+        "symfony/twig-bundle": "^4.4 || ^5.1 || ^5.2"
     },
     "conflict": {
         "twig/twig": "<1.40 || >=2.0,<2.9"
@@ -40,10 +44,10 @@
         "phpstan/phpstan-shim": "~0.9",
         "phpunit/phpunit": "~5.0 || ~6.0",
         "propel/propel1": "~1.6",
-        "symfony/console": "^4.4 || ^5.1",
-        "symfony/form": "^4.4 || ^5.1",
-        "symfony/phpunit-bridge": "^4.4 || ^5.1",
-        "symfony/yaml": "^4.4 || ^5.1",
+        "symfony/console": "^4.4 || ^5.1 || ^5.2",
+        "symfony/form": "^4.4 || ^5.1 || || ^5.2",
+        "symfony/phpunit-bridge": "^4.4 || ^5.1 || ^5.2",
+        "symfony/yaml": "^4.4 || ^5.1 || ^5.2",
         "willdurand/propel-typehintable-behavior": "~1.0"
     },
     "suggest": {
