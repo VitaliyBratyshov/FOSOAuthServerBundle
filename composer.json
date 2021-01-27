@@ -24,7 +24,7 @@
         }
     ],
     "require": {
-        "php": ">=8.0",
+        "php": "^7.2",
         "friendsofsymfony/oauth2-php": "~1.1",
         "symfony/dependency-injection": "^4.4 || ^5.1 || ^5.2",
         "symfony/framework-bundle": "^4.4 || ^5.1 || ^5.2",
@@ -45,7 +45,7 @@
         "phpunit/phpunit": "~5.0 || ~6.0",
         "propel/propel1": "~1.6",
         "symfony/console": "^4.4 || ^5.1 || ^5.2",
-        "symfony/form": "^4.4 || ^5.1 || || ^5.2",
+        "symfony/form": "^4.4 || ^5.1",
         "symfony/phpunit-bridge": "^4.4 || ^5.1 || ^5.2",
         "symfony/yaml": "^4.4 || ^5.1 || ^5.2",
         "willdurand/propel-typehintable-behavior": "~1.0"
